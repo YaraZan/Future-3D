@@ -506,7 +506,7 @@ a {
 
 .begishevo,
 .almetyevsk {
-  background-image: url("src/assets/itcube__logo.png");
+  background-image: url("../assets/it-cube-logo-dark-cut.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 40% 30%;
@@ -550,7 +550,7 @@ a {
   font-size: 20px;
   line-height: 22px;
   color: #000000;
-  background-image: url("src/assets/bus__logistic.svg");
+  background-image: url("../assets/buslogistic.svg");
   background-repeat: no-repeat;
   background-size: 32px 32px;
   background-position: 2% center;
