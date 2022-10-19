@@ -509,7 +509,7 @@ a {
   background-image: url("../assets/it-cube-logo-dark-cut.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 40% 30%;
+  background-size: 50% 20%;
 }
 
 .logistic__card-title {
@@ -1204,7 +1204,7 @@ a {
 
   .begishevo,
   .almetyevsk {
-    background-size: 40% 20%;
+    background-size: 50% 20%;
   }
 
   .logistic__map {
