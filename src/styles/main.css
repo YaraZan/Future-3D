@@ -252,7 +252,7 @@ a {
 }
 
 .about__link {
-  font-size: 22px;
+  font-size: 30px;
 }
 
 /* schedule */
@@ -545,12 +545,12 @@ a {
   color: #2615e8;
 }
 
+.logistic__taxi,
 .logistic__bus {
   font-weight: 600;
   font-size: 20px;
   line-height: 22px;
   color: #000000;
-  background-image: url("../assets/buslogistic.svg");
   background-repeat: no-repeat;
   background-size: 32px 32px;
   background-position: 2% center;
@@ -559,6 +559,14 @@ a {
   border-radius: 15px;
   border: 2px solid #2615e8;
   margin-bottom: 40px;
+}
+
+.logistic__bus {
+  background-image: url("../assets/bus__logistic.svg");
+}
+
+.logistic__taxi {
+  background-image: url("../assets/taxi_logistic.svg");
 }
 
 .logistic__distance {
@@ -1162,6 +1170,7 @@ a {
   .logistic__text,
   .logistic__link,
   .logistic__bus,
+  .logistic__taxi,
   .logistic__distance {
     max-width: 140px;
   }
@@ -1179,7 +1188,8 @@ a {
     line-height: 14px;
     margin-bottom: 10px;
   }
-
+  
+  .logistic__taxi,
   .logistic__bus {
     font-weight: 600;
     font-size: 12px;
