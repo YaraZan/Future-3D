@@ -562,7 +562,7 @@ a {
 }
 
 .logistic__bus {
-  background-image: url("../assets/buslogistic.svg");
+  background-image: url("src/assets/buslogistic.svg");
 }
 
 .logistic__taxi {
