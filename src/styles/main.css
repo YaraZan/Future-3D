@@ -602,7 +602,6 @@ a {
 }
 
 .food__title {
-  max-width: 550px;
   background-image: url("..src/assets/food.png");
   background-repeat: no-repeat;
   background-size: 50px 50px;
@@ -1313,7 +1312,7 @@ a {
   }
   
   .food__title {
-    max-width: 280px;
+    padding-right: 50px;
     background-size: 30px 30px;
     margin-right: 0;
     font-weight: 700;
