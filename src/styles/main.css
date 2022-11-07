@@ -505,7 +505,8 @@ a {
 }
 
 .begishevo,
-.almetyevsk {
+.almetyevsk,
+.bugulma{
   background-image: url("../assets/it-cube-logo-dark-cut.png");
   background-position: center center;
   background-repeat: no-repeat;
