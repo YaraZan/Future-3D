@@ -516,7 +516,7 @@ a {
 .begishevo,
 .bugulma,
 .almetyevsk {
-  background-image: url("../assets/3Dbg.svg");
+  background-image: url("src/assets/3Dbg.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 40% 30%;
@@ -581,11 +581,11 @@ a {
 }
 
 .logistic__bus {
-  background-image: url("../assets/bus__logistic.svg");
+  background-image: url("src/assets/bus__logistic.svg");
 }
 
 .logistic__taxi {
-  background-image: url("../assets/taxi_logistic.svg");
+  background-image: url("src/assets/taxi_logistic.svg");
 }
 
 .logistic__taxi span {
@@ -595,7 +595,7 @@ a {
 
 .logistic__distance {
   margin-top: auto;
-  background-image: url("../assets/path.svg");
+  background-image: url("src/assets/path.svg");
 }
 
 .logistic__distance span {
@@ -630,7 +630,7 @@ a {
 
 .food__title {
   padding-right: 80px;
-  background-image: url("../assets/food.svg");
+  background-image: url("src/assets/food.svg");
   background-repeat: no-repeat;
   background-size: 50px 50px;
   background-position: right center;
