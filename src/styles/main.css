@@ -1311,18 +1311,6 @@ a {
     background-position: 6% center;
   }
 
-  .logistic__distance {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14px;
-  }
-
-  .logistic__distanceText {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14px;
-  }
-
   .logistic__map {
     border-radius: 20px;
   }
