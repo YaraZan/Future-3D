@@ -1204,10 +1204,15 @@ a {
 
   .logistic__title {
     margin-right: 0;
+    margin-bottom: 15px;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
+  }
+  
+  .logistic__transport {
+    margin-left: none;
   }
 
   .logistic__transportDescr {
