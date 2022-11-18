@@ -1300,7 +1300,8 @@ a {
   }
   
   .logistic__taxi,
-  .logistic__bus {
+  .logistic__bus,
+  .logistic__distance {
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
@@ -1320,11 +1321,6 @@ a {
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
-  }
-
-  .begishevo,
-  .almetyevsk {
-    background-size: 50% 25%;
   }
 
   .logistic__map {
