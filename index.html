@@ -28,11 +28,11 @@
            
             <div id="carousel-example-generic" class="carousel slide carousel-fade carousel-animate carousel-bg" data-ride="carousel">
             <!-- Indicators -->
-            <ol class="carousel-indicators">
+<!--             <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
             <div class="item active" style="background-image: url(img/1.jpg) ">
@@ -41,9 +41,10 @@
             <hgroup class="zoomInDown animated">
             <h1>FUTURE 3D</h1>
              <h1 class="text3">FUTURE 3D</h1>
-            <h3>Всероссийский хакатон по 3D - моделированию</h3>
+            <h3 style="margin-bottom: 15px; font-style: bold;">Всероссийский хакатон по 3D - моделированию</h3>
             </hgroup>
-            <button class="btn btn-hero btn-lg bounceInUp animated" role="button">Подать заявку</button>
+             <h2>Мероприятие завершилось!</h2>
+            <button class="btn btn-hero btn-lg bounceInUp animated" role="button">Посмотреть итоги</button>
             </div>
             </div>
             </div>
@@ -557,7 +558,7 @@
         const btns = document.querySelectorAll('button');
       btns.forEach(btn => {
         btn.addEventListener('click', () => {
-          alert("Регистрация завершена!");
+          window.location.href = '/src/assets/protocol.pdf';
         });
       });
       });
