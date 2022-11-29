@@ -532,43 +532,43 @@ a {
 }
 
 .win1 {
-  background-image: url("/src/assets/win1.png");
+  background-image: url("../assets/win1.png");
 }
 
 .win2 {
-  background-image: url("/src/assets/win2.png");
+  background-image: url("../assets/win2.png");
 }
 
 .win3 {
-  background-image: url("/src/assets/win3.png");
+  background-image: url("../assets/win3.png");
 }
 
 .win4 {
-  background-image: url("/src/assets/win4.png");
+  background-image: url("../assets/win4.png");
 }
 
 .win5 {
-  background-image: url("/src/assets/win5.png");
+  background-image: url("../assets/win5.png");
 }
 
 .win6 {
-  background-image: url("/src/assets/win6.png");
+  background-image: url("../assets/win6.png");
 }
 
 .win7 {
-  background-image: url("/src/assets/win7.png");
+  background-image: url("../assets/win7.png");
 }
 
 .win8 {
-  background-image: url("/src/assets/win8.png");
+  background-image: url("../assets/win8.png");
 }
 
 .win9 {
-  background-image: url("/src/assets/win9.png");
+  background-image: url("../assets/win9.png");
 }
 
 .win10 {
-  background-image: url("/src/assets/win10.png");
+  background-image: url("../assets/win10.png");
 }
 
 /* logistic */
