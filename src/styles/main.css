@@ -505,15 +505,15 @@ a {
 }
 
 .neft {
-  background-image: url("/src/assets/oilpump.svg");
+  background-image: url("../assets/oilpump.svg");
 }
 
 .drone {
-  background-image: url("/src/assets/drone.svg");
+  background-image: url("../assets/drone.svg");
 }
 
 .space {
-  background-image: url("/src/assets/rocket.svg");
+  background-image: url("../assets/rocket.svg");
 }
 
 .win1, 
