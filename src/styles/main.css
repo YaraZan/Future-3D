@@ -420,6 +420,161 @@ a {
   color: #0070c1;
 }
 
+/* winners */
+
+.winners {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #151414;
+}
+
+.winners .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.winner__card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.winner__card {
+  padding: 230px 15px 15px 15px;
+  border-radius: 20px;
+  width: 400px;
+  background-color: #4B4646;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.winner__card:not(:nth-child(4n)) {
+  margin-right: 40px;
+}
+
+.winner__download {
+  margin-top: auto;
+  background: none;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 20px;
+  background-color: #353535;
+  transition: all .4s ease;
+}
+
+.winner__download a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.winner__download:hover {
+  background-color: #1f1f1f;
+}
+
+.zip-all {
+  align-self: center;
+  width: 60%;
+}
+
+.winner__team {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 24px;
+  color: #787272;
+  margin-bottom: 8px;
+}
+
+.winner__team-name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 26px;
+  color: #F8F8F8;
+  margin-bottom: 10px;
+}
+
+.winner__theme {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 20px 0;
+  color: #988F8F;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 50px 50px;
+  margin-bottom: 15px;
+}
+
+.neft {
+  background-image: url("/src/assets/oilpump.svg");
+}
+
+.drone {
+  background-image: url("/src/assets/drone.svg");
+}
+
+.space {
+  background-image: url("/src/assets/rocket.svg");
+}
+
+.win1, 
+.win2,
+.win3,
+.win4,
+.win5,
+.win6,
+.win7,
+.win8,
+.win9,
+.win10 {
+  background-position: top center;
+  background-size: 100% 200px;
+  background-repeat: no-repeat;
+}
+
+.win1 {
+  background-image: url("/src/assets/win1.png");
+}
+
+.win2 {
+  background-image: url("/src/assets/win2.png");
+}
+
+.win3 {
+  background-image: url("/src/assets/win3.png");
+}
+
+.win4 {
+  background-image: url("/src/assets/win4.png");
+}
+
+.win5 {
+  background-image: url("/src/assets/win5.png");
+}
+
+.win6 {
+  background-image: url("/src/assets/win6.png");
+}
+
+.win7 {
+  background-image: url("/src/assets/win7.png");
+}
+
+.win8 {
+  background-image: url("/src/assets/win8.png");
+}
+
+.win9 {
+  background-image: url("/src/assets/win9.png");
+}
+
+.win10 {
+  background-image: url("/src/assets/win10.png");
+}
+
 /* logistic */
 
 .logistic {
@@ -1182,6 +1337,15 @@ a {
   .experts__descr {
     font-size: 20px;
     line-height: 22px;
+  }
+  
+  .winner__card,
+  .zip-all {
+    width: 100%;
+  }
+
+  .winner__card:not(:nth-child(4n)) {
+    margin-right: 0;
   }
 
   /* logistic */
